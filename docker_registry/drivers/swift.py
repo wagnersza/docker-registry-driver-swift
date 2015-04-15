@@ -25,6 +25,7 @@ class Storage(driver.Base):
             os_options={
                 'tenant_name': config.swift_tenant_name,
                 'region_name': config.swift_region_name,
+                'endpoint_type': config.swift_endpoint_type,
                 'object_storage_url': config.swift_object_storage_url
             })
 
